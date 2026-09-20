@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Nodi",
+    "slug": "nodi",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "nodi",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "package": "it.nodi.app",
+      "versionCode": 1,
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "RECORD_AUDIO",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "nodi"
+        }
+      ]
+    ]
+  }
+}
